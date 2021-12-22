@@ -81,7 +81,7 @@ function r = evaluationCond(a)
 
     [robot, endEffector] = createRobot(dh); % Creation of the tentacle and getting the endEffector name for future uses.
     
-    nPoints = 100; % Number of points to study.
+    nPoints = 500; % Number of points to study.
     m = 0;  % Mean Condition Number.
 
     parfor i = 1:nPoints            
